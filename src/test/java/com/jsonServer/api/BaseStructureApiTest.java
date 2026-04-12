@@ -9,6 +9,9 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 
 public class BaseStructureApiTest {
+
+    // Start JSON Server
+    // npx json-server db.json
     final protected String BASE_URL = "http://localhost";
     final protected int PORT = 3000;
 
