@@ -26,7 +26,7 @@ public class BaseStructureApiTest {
                 .get("/posts")
                 .then()
                 .statusCode(200)
-                .extract().jsonPath().getString("[0].id");
+                .extract().jsonPath().getString("[2].id");
         return postId;
     }
 
